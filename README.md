@@ -1,22 +1,22 @@
-Acest software oferă două tipuri de conturi pe tru clienți, unul numit cont de economii
-iar celălalt cont curent. Contul de economii oferă dobânzi și retrageri compuse
-facilități, dar nu există facilități de verificare. Cu toate acestea, contul curent oferă facilități de verificare
-fara interes. Deținătorii de cont curent ar trebui, de asemenea, să mențină un sold minim și, dacă este cazul
-scade sub acest nivel, se impune o taxă pentru servicii.
+This software offers two types of customer accounts, one called savings account
+and the other current account. The savings account offers compound interest and withdrawals
+facilities, but there are no verification facilities. However, the current account provides verification facilities
+no interest. Current account holders should also maintain a minimum balance and, where appropriate
+falls below this level, a service charge is imposed.
 
-În acest software, este un cont de clasă care stochează numele clientului, numărul de cont și tipul de cont.
-Din aceasta, derivă clasele cur_acct și sav_acct pentru a le face mai specifice
-cerințe.
+In this software, this is a class account that stores the customer's name, account number, and account type.
+From this, derive the classes cur_acct and sav_acct to do more
+requirements.
 
-Caracteristici:
+Characteristics:
 ---------
-(a) Acceptați depunerea de la un client și actualizați soldul.
-(b) Afișați soldul.
-(c) Calculați și depuneți dobânzile.
-(d) Permiteți retragerea și actualizați soldul.
-(e) Verificați soldul minim, impuneți penalități, necesare și actualizați soldul.
+(a) Accept the deposit from a customer and update the balance.
+(b) Display the balance.
+(c) Calculate and deposit interest.
+(d) Allow withdrawal and update balance.
+(e) Check the minimum balance, impose penalties, necessary and update the balance.
 
-Dezavantaje:
+Disadvantage:
 --------------
-(a) Poate gestiona o singură activitate de client
-(b) Nu se utilizează gestionarea bazelor de date și a fișierelor, astfel încât datele sunt temporare
+(a) Can manage a single customer activity
+(b) Database and file management is not used, so it is temporary data
